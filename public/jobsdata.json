@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "companyLogo": "https://img.freepik.com/free-vector/logo-branding-identity-corporate-vector-design_460848-10939.jpg?size=626&ext=jpg&ga=GA1.1.1626292175.1681061547&semt=ais",
+    "jobTitle": "Senior Software Engineer",
+    "companyName": "Acme Corporation",
+    "remoteOrOnsite": "Remote",
+    "location": "San Francisco, CA",
+    "Parttime": "Part-time",
+    "salary": "$150,000 - $200,000",
+    "jobDescription": "Acme Corporation is looking for an experienced software engineer to join our team.",
+    "jobResponsibility": "Design and implement software solutions that meet business needs.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or a related field.",
+    "experiences": "8+ years of professional experience in software development.",
+    "contactInformation": {
+      "phone": "555-555-5555",
+      "email": "jobs@acme.com"
+    }
+  },
+  {
+    "id": 2,
+    "companyLogo": "https://img.freepik.com/free-vector/branding-identity-corporate-abstract-logo-vector-design-template_460848-13937.jpg?size=626&ext=jpg&ga=GA1.1.1626292175.1681061547&semt=ais",
+    "jobTitle": "Marketing Manager",
+    "companyName": "XYZ Corporation",
+    "remoteOrOnsite": "Onsite",
+    "location": "New York, NY",
+    "fulltime": "Full-time",
+    "salary": "$100,000 - $120,000",
+    "jobDescription": "XYZ Corporation is seeking a Marketing Manager to develop and execute marketing strategies.",
+    "jobResponsibility": "Create and implement marketing plans to drive business growth.",
+    "educationalRequirements": "Bachelor's degree in Marketing, Business Administration or a related field.",
+    "experiences": "5+ years of experience in marketing and strategy.",
+    "contactInformation": {
+      "phone": "555-555-5555",
+      "email": "jobs@xyz.com"
+    }
+  },
+  {
+    "id": 3,
+    "companyLogo": "https://img.freepik.com/free-vector/logo-with-human-shape-star_1057-2127.jpg?size=626&ext=jpg&ga=GA1.1.1626292175.1681061547&semt=ais",
+    "jobTitle": "Product Manager",
+    "companyName": "ABC Inc.",
+    "remoteOrOnsite": "Remote",
+    "location": "Chicago, IL",
+    "fulltime": "Full-time",
+    "salary": "$120,000 - $140,000",
+    "jobDescription": "ABC Inc. is looking for a Product Manager to lead the development of our product.",
+    "jobResponsibility": "Develop and execute product strategies and roadmaps.",
+    "educationalRequirements": "Bachelor's degree in Computer Science, Engineering or a related field.",
+    "experiences": "5+ years of experience in product management.",
+    "contactInformation": {
+      "phone": "555-555-5555",
+      "email": "jobs@abc.com"
+    }
+  },
+  {
+    "id": 1,
+    "companyLogo": "https://img.freepik.com/free-vector/winner-logo_1025-448.jpg?size=626&ext=jpg&ga=GA1.1.1626292175.1681061547&semt=ais",
+    "jobTitle": "Senior Software Engineer",
+    "companyName": "Acme Corporation",
+    "remoteOrOnsite": "Remote",
+    "location": "San Francisco, CA",
+    "Parttime": "Part-time",
+    "salary": "$150,000 - $200,000",
+    "jobDescription": "Acme Corporation is looking for an experienced software engineer to join our team.",
+    "jobResponsibility": "Design and implement software solutions that meet business needs.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or a related field.",
+    "experiences": "8+ years of professional experience in software development.",
+    "contactInformation": {
+      "phone": "555-555-5555",
+      "email": "jobs@acme.com"
+    }
+  },
+  {
+    "id": 2,
+    "companyLogo": "https://img.freepik.com/free-vector/logo-template-design_1289-150.jpg?size=626&ext=jpg&ga=GA1.1.1626292175.1681061547&semt=ais",
+    "jobTitle": "Marketing Manager",
+    "companyName": "XYZ Corporation",
+    "remoteOrOnsite": "Onsite",
+    "location": "New York, NY",
+    "fulltime": "Full-time",
+    "salary": "$100,000 - $120,000",
+    "jobDescription": "XYZ Corporation is seeking a Marketing Manager to develop and execute marketing strategies.",
+    "jobResponsibility": "Create and implement marketing plans to drive business growth.",
+    "educationalRequirements": "Bachelor's degree in Marketing, Business Administration or a related field.",
+    "experiences": "5+ years of experience in marketing and strategy.",
+    "contactInformation": {
+      "phone": "555-555-5555",
+      "email": "jobs@xyz.com"
+    }
+  },
+  {
+    "id": 3,
+    "companyLogo": "https://img.freepik.com/free-vector/logo-template-design_1289-54.jpg?size=626&ext=jpg&ga=GA1.2.1626292175.1681061547&semt=ais",
+    "jobTitle": "Online Marketing",
+    "companyName": "SAFE ICT.",
+    "remoteOrOnsite": "Remote",
+    "location": "New Elephant Road,Suvastu Arcade,level 2",
+    "Parttime": "Part-time",
+    "salary": "$19,000",
+    "jobDescription": "",
+    "jobResponsibility": "Develop and execute product strategies and roadmaps.",
+    "educationalRequirements": "Bachelor's degree in Computer Science, Engineering or a related field.",
+    "experiences": "5+ years of experience in product management.",
+    "contactInformation": {
+      "phone": "555-555-5555",
+      "email": "jobs@abc.com"
+    }
+  }
+]

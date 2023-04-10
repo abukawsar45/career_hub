@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Software Engineer",
+      "logo": "https://img.freepik.com/free-icon/personal-configuration_318-46663.jpg?size=626&ext=jpg&ga=GA1.1.1626292175.1681061547&semt=ais",
+      "members_needed": "370+",
+      "location": "San Francisco"
+    },
+    {
+      "name": "Graphic Designer",
+      "logo": "https://img.freepik.com/free-vector/simple-business-people-icons_23-2147491693.jpg?size=626&ext=jpg&ga=GA1.1.1626292175.1681061547&semt=ais",
+      "members_needed": "122",
+      "location": "New York"
+    },
+    {
+      "name": "Marketing Manager",
+      "logo": "https://img.freepik.com/free-vector/address-book-icon_1025-371.jpg?size=626&ext=jpg&ga=GA1.1.1626292175.1681061547&semt=ais",
+      "members_needed": "210",
+      "location": "Los Angeles"
+    },
+    {
+      "name": "Data Analyst",
+      "logo": "https://img.freepik.com/premium-vector/digital-worker-logo-template-design-vector-emblem-design-concept-creative-symbol-icon_316488-2435.jpg?size=626&ext=jpg&ga=GA1.2.1626292175.1681061547&semt=ais",
+      "members_needed": "270+",
+      "location": "Chicago"
+    }
+]
+
