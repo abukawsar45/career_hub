@@ -13,7 +13,8 @@ const JobsContent = ({data}) => {
     // console.log(jobsData)
     const seeAllButttonHandler = () => {
         // console.log('first')
-        setJobsDatta(data)
+        setJobsDatta(data);
+        setSeeMore(!seeMore)
     }
 
 
@@ -37,7 +38,13 @@ const JobsContent = ({data}) => {
 
             </div>
             <div className='flex justify-center'>
-                    <button onClick={() => seeAllButttonHandler()} className='button-linear'>see more</button>
+                {
+                    seeMore?
+                   ''
+                        :
+                        <button onClick={() => seeAllButttonHandler()} className='button-linear mt-10'>see more</button>
+                    // <button className='bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-full' onClick={seeAllButttonHandler}>See More Jobs</button>
+                    }
                 </div>
         </div>
     );

@@ -5,7 +5,7 @@ const SingleJobContent = ({ jobData }) => {
     const { id, companyLogo, jobTitle, companyName, remoteOrOnsite, location, typeOfJob, salary, jobDescription, jobResponsibility, educationalRequirements, experiences, contactInformation } = jobData
     // const { phone, email } = contactInformation
     return (
-        <div className='p-10 bg-slate-50 rounded-sm'>
+        <div className='p-10 flex flex-col justify-between bg-slate-50 rounded-sm'>
             <img src={companyLogo} className='w-28 h-auto rounded-md my-4 ' alt="" />
             <h2 className='text-2xl font-semibold'>{jobTitle} </h2>
             <h4 className='text-xl text-red-500'>{companyName} </h4>
@@ -17,7 +17,10 @@ const SingleJobContent = ({ jobData }) => {
                 <p> {location} </p>
                 <p>{salary} </p>
             </div>
-            <button className='button-linear2 mt-6'>View More</button>
+            <div>
+                <button className='button-linear2  mt-6'>View More</button>
+
+            </div>
         </div>
     );
 };
