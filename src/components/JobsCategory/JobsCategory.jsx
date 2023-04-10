@@ -1,6 +1,7 @@
 import React from 'react';
 
 const JobsCategory = () => {
+    
     return (
         <div>
             <div className='text-center'>
