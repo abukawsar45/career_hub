@@ -4,11 +4,11 @@ import ActiveLink from '../ActiveLink/ActiveLink';
 
 const Header = () => {
     return (
-        <div className='flex flex-col justify-center items-center md:flex-row  md:justify-between '>
+        <div className='flex flex-col justify-center items-center md:flex-row my-4 md:my-6  md:justify-between '>
             <div className=''>
                 <h3 className='font-bold text-3xl font-extrabold -'>Jobs Market</h3>
             </div>
-            <div className='flex flex-col text-xl gap-4 md:flex-row '>
+            <div className='flex flex-col text-xl gap-2 md:gap-4 my-0 md:my-3 md:flex-row '>
                 <ActiveLink to='/statistics'>Statistics</ActiveLink>
                 <ActiveLink to='/appliedjobs'>Applied Jobs</ActiveLink>
                 <ActiveLink to='/blog'>Blog</ActiveLink>

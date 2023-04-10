@@ -2,4 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.button-linear{
+    @apply px-7 py-5 bg-gradient-to-r from-lime-500 to-green-300 text-xl text-slate-100 font-semibold rounded-lg from-cyan-500 to-blue-500
+}
+.button-linear2{
+    @apply px-5 py-3 bg-gradient-to-r from-lime-500 to-green-300 text-xl text-slate-100 font-semibold rounded-lg from-cyan-500 to-blue-500
+}

@@ -1,10 +1,11 @@
 import React from 'react';
 import JobsCategory from '../JobsCategory/JobsCategory';
 import { useLoaderData } from 'react-router-dom';
+import JobsContent from '../../JobsContent/JobsContent';
 
 const HeaderContent = () => {
     const data = useLoaderData()
-    console.log(data)
+    // console.log(data)
     return (
        <div>
             <div className='flex flex-col md:flex-row items-center justify-center'>
@@ -23,6 +24,7 @@ const HeaderContent = () => {
                 </div>
             </div>
             <JobsCategory></JobsCategory>
+            <JobsContent data={data} ></JobsContent>
        </div>
     );
 };
