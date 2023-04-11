@@ -6,6 +6,7 @@ const JobsContent = () => {
     const [jobsData, setJobsDatta] = useState([]);
     const [seeMore, setSeeMore] = useState(false);
     const allJobDetails = useLoaderData()
+    console.log('789', allJobDetails)
     useEffect(() => {
         fetch('/jobsdata.json')
             .then(response => response.json())
@@ -27,7 +28,7 @@ const JobsContent = () => {
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 mt-7 gap-4 '>
                 {
-                    jobsData.map((jobData,id) =>
+                    jobsData?.map((jobData,id) =>
                     <SingleJobContent    
                             key={id}
                             jobData={jobData}

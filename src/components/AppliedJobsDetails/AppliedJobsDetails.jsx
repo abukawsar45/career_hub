@@ -2,10 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { getApplyJob } from '../../FakeDB/fakedb';
 import { ChevronDownIcon} from '@heroicons/react/24/solid'
+import AppliedSingleJobDetails from '../AppliedSingleJobDetails/AppliedSingleJobDetails';
 
 const AppliedJobDetails = () => {
     const jobsData = useLoaderData()
-    console.log(jobsData)
+    // console.log(jobsData)
     const [getJob, setGetJob] = useState([]);
     const [filter, setFilter] = useState(false);
     useEffect(() => {
@@ -61,9 +62,9 @@ const AppliedJobDetails = () => {
             </div>
             <div className=''>
                 <div className='flex justify-end'>
-                    <div className='my-button-3 w-32 flex flex-col items-center'>
+                    <div className='my-button-3 w-32 flex flex-col justify-start items-center'>
                         <button onClick={() => setFilter(!filter)} className=' flex items-center'>Filter by  <span ><ChevronDownIcon className="h-4 w-4 " /></span> </button>
-                        <div className={filter ? 'flex flex-col' : 'hidden'}>
+                        <div className={filter ? 'flex flex-col justify-start' : 'hidden'}>
                             <button onClick={()=>remoteButtonHandler()} className=''>Remote </button>
 
                             <button onClick={() => onsiteButtonHandler()} className=''>Onsite</button>
@@ -77,7 +78,7 @@ const AppliedJobDetails = () => {
                     {
                         getJob.map((job, index) =>
                             <AppliedSingleJobDetails
-                                key={index.jobTitle}
+                                key={index}
                                 job={job}
 
                             ></AppliedSingleJobDetails>)

@@ -30,6 +30,7 @@ const getApplyJob = () => {
     if (storedCart) {
         applyJob = JSON.parse(storedCart);
     }
+    
     return applyJob;
 }
 
