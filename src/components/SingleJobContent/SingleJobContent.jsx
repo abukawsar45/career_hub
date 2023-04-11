@@ -2,6 +2,7 @@ import React from 'react';
 import { MapPinIcon, CurrencyDollarIcon } from '@heroicons/react/24/solid'
 import { Link } from 'react-router-dom';
 import { addToDb } from '../../FakeDB/fakedb';
+import SingleJobDetails from '../SingleJobDetails/SingleJobDetails';
 
 
 const SingleJobContent = ({ jobData }) => {
@@ -27,9 +28,7 @@ const SingleJobContent = ({ jobData }) => {
                 <p className='flex items-center gap-1 text-neutral-600'><span ><CurrencyDollarIcon className="h-4 w-4 " /></span> Salary: {salary} </p>
             </div>
             <div>
-
-                <Link to='/jobdetails'> <button onClick={() => JobDetailsButtonHandler(jobData)} className='button-linear2 mt-6'>View Details</button></Link>
-
+                <Link to={`/jobdetails/${id}`}> <button className='button-linear2 mt-6'>View Details</button></Link>
             </div>
         </div>
     );

@@ -1,19 +1,20 @@
 import React, { useEffect, useState } from 'react';
 import SingleJobContent from '../components/SingleJobContent/SingleJobContent';
-import { Link } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 
-const JobsContent = ({data}) => {
+const JobsContent = () => {
     const [jobsData, setJobsDatta] = useState([]);
-    const [seeMore, setSeeMore] = useState(false)
+    const [seeMore, setSeeMore] = useState(false);
+    const allJobDetails = useLoaderData()
     useEffect(() => {
-        fetch('jobsdata.json')
+        fetch('/jobsdata.json')
             .then(response => response.json())
             .then(data => setJobsDatta(data.slice(0,4)))
     }, [])
     // console.log(jobsData)
     const seeAllButttonHandler = () => {
         // console.log('first')
-        setJobsDatta(data);
+        setJobsDatta(allJobDetails);
         setSeeMore(!seeMore)
     }
 

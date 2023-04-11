@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
-import AppliedSingleJobDetails from '../AppliedSingleJobDetails/AppliedSingleJobDetails';
 import { getApplyJob } from '../../FakeDB/fakedb';
 import { ChevronDownIcon} from '@heroicons/react/24/solid'
 

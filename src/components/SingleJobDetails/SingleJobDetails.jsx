@@ -1,24 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
-import { getApplyJob } from '../../FakeDB/fakedb';
+import { BriefcaseIcon, CurrencyDollarIcon, MapPinIcon, PhoneIcon, EnvelopeIcon } from '@heroicons/react/24/solid'
+// import { getApplyJob } from '../../FakeDB/fakedb';
 // import { JobDetailsButtonHandler } from '../SingleJobContent/SingleJobContent';
 
 
 
 
-const SingleJobDetails = ({  }) => {
-    // const singleJobData = JobDetailsButtonHandler()
-    // console.log(JobDetailsButtonHand)
-    // const jobsData = useLoaderData()
-    // console.log(jobsData)
-    // const [getJob, setGetJob] = useState([]);
-    // useEffect(() => {
-    //     const getJob = getApplyJob()
-    //     setGetJob(getJob)
-    //     const singleTitle = Object.keys(getJob)
-    //     const perJob = singleTitle.map(title => jobsData.find(job => job.jobTitle === title))
-    //     setGetJob(perJob)
-    // }, [])
+const SingleJobDetails = () => {
+    const singleJobData = useLoaderData();
+    const { id, companyLogo, jobTitle, companyName, remoteOrOnsite, location, typeOfJob, salary, address, jobDescription, jobResponsibility, educationalRequirements, experiences, contactInformation } = singleJobData;
+    const {phone, email } = contactInformation   
 
     return (
         <div className=' '>
@@ -28,11 +20,43 @@ const SingleJobDetails = ({  }) => {
                     <h1 className=' text-4xl my-auto text-center -mt-40 font-medium absolute'>Applied Jobs</h1>
                 </div>
             </div>
-            <div className='grid grid-cols-12 gap-6'>
-                <div className='col-span-8 md:col-span-8 md:pl-40 bg-orange-400'>
+            <div className='grid my-5 md:my-32 grid-cols-12 gap-6'>
+                <div className='col-span-12 p-2 md:col-span-8 md:pl-40'>
+                    <p className='mt-6'><span className='font-bold'>Job Describtion</span> : {jobDescription} </p>
+                    <p className='mt-3'><span className='font-bold'>Job Responsibility</span> : {jobDescription} </p>
+                    <div>
+                        <p className='mt-4 font-bold'>Education Requirements: </p>
+                        <br />
+                        <p>{educationalRequirements} </p>
+                    </div>
+                    <div>
+                        <p className='mt-4 font-bold'>Experiences: </p>
+                        <br />
+                        <p>{experiences} </p>
+                    </div>j
+
 
                 </div>
-                <div className='col-span-4 md:col-span-4 bg-slate-500'>sdfgd</div>
+                <div className='col-span-12 md:col-span-4 p-2 md:p-8 rounded-sm bg-slate-500'>
+                    <div>
+                        <h1 className='font-bold text-xl pb-6'>Job Details:</h1>
+                        <hr />
+                        <div className='py-2 md:py-6'>
+                            <p className='my-2 flex items-center gap-1 text-orange-200'><span ><CurrencyDollarIcon className="h-4 w-4 " /></span> Salary: {salary} </p>
+                            <p className='my-2 flex items-center gap-1 text-orange-200'><span ><BriefcaseIcon className="h-4 w-4 " /></span> Job Title: {jobTitle} </p>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 className='font-bold text-xl pb-6'>Contact Information:</h1>
+                        <hr />
+                        <div className='py-2 md:py-6'>
+                            <p className='my-2 flex items-center gap-1 text-orange-200'><span ><PhoneIcon className="h-4 w-4 " /></span> Phone: {phone} </p>
+                            <p className='my-2 flex items-center gap-1 text-orange-200'><span ><EnvelopeIcon className="h-4 w-4 " /></span> Email: {email} </p>
+                            <p className='my-2 flex items-center gap-1 text-orange-200'><span ><MapPinIcon className="h-4 w-4 " /></span> Address: {address} </p>
+                        </div>
+                    </div>
+                    
+                </div>
             </div>
         </div>
     );
