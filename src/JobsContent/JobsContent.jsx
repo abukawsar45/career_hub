@@ -6,7 +6,7 @@ const JobsContent = () => {
     const [jobsData, setJobsDatta] = useState([]);
     const [seeMore, setSeeMore] = useState(false);
     const allJobDetails = useLoaderData()
-    console.log('789', allJobDetails)
+    // console.log('789', allJobDetails)
     useEffect(() => {
         fetch('/jobsdata.json')
             .then(response => response.json())

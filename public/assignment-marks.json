@@ -1,0 +1,9 @@
+[
+    { "id": 1, "assignmentName": "Assingment-01", "assignmentMark": 60 },
+    { "id": 2, "assignmentName": "Assingment-02", "assignmentMark": 32 },
+    { "id": 3, "assignmentName": "Assingment-03", "assignmentMark": 60 },
+    { "id": 4, "assignmentName": "Assingment-04", "assignmentMark": 60 },
+    { "id": 5, "assignmentName": "Assingment-05", "assignmentMark": 58 },
+    { "id": 6, "assignmentName": "Assingment-06", "assignmentMark": 58 },
+    { "id": 7, "assignmentName": "Assingment-07", "assignmentMark": 60 }
+]
