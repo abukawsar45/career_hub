@@ -8,3 +8,9 @@
 .button-linear2{
     @apply px-5 py-3 bg-gradient-to-r from-lime-500 hover:bg-gradient-to-l to-green-300 text-xl text-slate-100 font-semibold rounded-lg from-cyan-500 to-blue-500
 }
+.my-btn-one{
+    @apply px-5 py-2 text-teal-700 border-2 my-4 border-gray-300 rounded-sm
+}
+.my-button-3{
+    @apply mb-4   md:mb-8 mt-6 md:mt-32 border-2 border-lime-400 bg-slate-300 px-5 py-2 md:mx-36 rounded-lg
+}

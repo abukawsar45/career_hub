@@ -26,9 +26,9 @@ const JobsContent = ({data}) => {
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 mt-7 gap-4 '>
                 {
-                    jobsData.map((jobData) =>
+                    jobsData.map((jobData,id) =>
                     <SingleJobContent    
-                            key={jobData.id}
+                            key={id}
                             jobData={jobData}
                         >
                         </SingleJobContent>
@@ -43,7 +43,7 @@ const JobsContent = ({data}) => {
                    ''
                         :
                         <button onClick={() => seeAllButttonHandler()} className='button-linear mt-10'>see more</button>
-                    // <button className='bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-full' onClick={seeAllButttonHandler}>See More Jobs</button>
+                    
                     }
                 </div>
         </div>

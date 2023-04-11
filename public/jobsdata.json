@@ -20,7 +20,7 @@
   {
     "id": 2,
     "companyLogo": "https://img.freepik.com/premium-vector/branding-identity-corporate-vector-logo-letter-design_460848-13950.jpg?size=626&ext=jpg&ga=GA1.2.1626292175.1681061547&semt=ais",
-    "jobTitle": "Marketing Manager",
+    "jobTitle": "Managing Director",
     "companyName": "XYZ Corporation",
     "remoteOrOnsite": "Onsite",
     "location": "New York, NY",
@@ -56,7 +56,7 @@
   {
     "id": 1,
     "companyLogo": "https://img.freepik.com/premium-vector/modern-x-initial-logo-travel-logo-template-vector-illustration_7649-2348.jpg?size=626&ext=jpg&ga=GA1.2.1626292175.1681061547&semt=ais",
-    "jobTitle": "Senior Software Engineer",
+    "jobTitle": "Software Engineer",
     "companyName": "Acme Corporation",
     "remoteOrOnsite": "Remote",
     "location": "San Francisco, CA",
