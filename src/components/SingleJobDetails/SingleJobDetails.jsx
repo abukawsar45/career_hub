@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Link, NavLink, useLoaderData } from 'react-router-dom';
+import { NavLink, useLoaderData } from 'react-router-dom';
 import { BriefcaseIcon, CurrencyDollarIcon, MapPinIcon, PhoneIcon, EnvelopeIcon } from '@heroicons/react/24/solid'
 import { getApplyJob, addToDb } from '../../FakeDB/fakedb';
 // import { JobDetailsButtonHandler } from '../SingleJobContent/SingleJobContent';
@@ -22,7 +22,7 @@ const SingleJobDetails = () => {
             <div className='relative bg-slate-100'>
                 <img className='w-full h-64 ' src="https://img.freepik.com/free-vector/pastel-watercolor-with-golden-frame_23-2148796557.jpg?size=626&ext=jpg&ga=GA1.1.1626292175.1681061547&semt=ais" alt="" />
                 <div className='flex  justify-around'>
-                    <h1 className=' text-4xl my-auto text-center -mt-40 font-medium absolute'>Applied Jobs</h1>
+                    <h1 className=' text-4xl my-auto text-center -mt-40 font-medium absolute'>Job Details</h1>
                 </div>
             </div>
             <div className='grid my-5 md:my-32 grid-cols-12 gap-6'>
@@ -63,7 +63,7 @@ const SingleJobDetails = () => {
                     </div>
                     </div>    
                         <div className=''>
-                        <Link to='/appliedjobs'> <button onClick={() => JobDetailsButtonHandler(jobTitle)} className='button-linear2 w-full  mt-6'>Apply Now</button></Link>
+                        <button onClick={() => JobDetailsButtonHandler(jobTitle)} className='button-linear2 w-full  mt-6'>Apply Now</button>
                         </div>
                 </div>
             </div>            

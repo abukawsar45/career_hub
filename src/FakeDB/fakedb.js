@@ -1,5 +1,6 @@
 // use local storage to manage cart data
 import { ToastContainer, toast } from 'react-toastify';
+// import toast, { Toaster } from 'react-hot-toast';
 
 const addToDb = id => {
     let applyJob = getApplyJob();
