@@ -9,10 +9,10 @@ const AppliedSingleJobDetails = ({ job }) => {
 
     return (
         
-        <div className='flex border-2 border-lime-100 bg-slate-50 w-auto gap-6 p-6 md:mx-36 rounded-sm'>
+        <div className='flex flex-col md:flex-row justify-center border-2 border-lime-100 bg-slate-50 w-auto gap-2 md:gap-6 p-2 md:p-6 md:mx-36 rounded-sm'>
             <img src={companyLogo} className='w-48 h-48  rounded-md me-6 ' alt="" />
-            <div className='flex justify-between items-center w-4/6'>
-                <div className='flex flex-col w-4/6 '>
+            <div className='flex flex-col md:flex-row justify-between items-center w-4/6'>
+                <div className='flex flex-col justify-center w-4/6 '>
                     <h2 className='text-2xl font-semibold'>{jobTitle} </h2>
                     <h4 className='text-xl text-red-500'>{companyName} </h4>
                     <div className='flex gap-9'>
@@ -25,7 +25,7 @@ const AppliedSingleJobDetails = ({ job }) => {
                     </div>
                 </div>
                 <div className='flex justify-end'>
-                    <Link to={`/jobdetails/${id}`}> <button className='button-linear2 mt-6'>View Details</button></Link>
+                    <Link to={`/jobdetails/${id}`}> <button className='button-linear2 mt-4 md:mt-6 mb-3 mb:mb-0'>View Details</button></Link>
                     {/* <Link to='/appliedjobs'> <button onClick={() => JobDetailsButtonHandler(jobTitle)} className='button-linear2 mt-6'>View Details</button></Link> */}
                 </div>
             </div>

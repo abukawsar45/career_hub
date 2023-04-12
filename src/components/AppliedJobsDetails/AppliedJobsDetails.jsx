@@ -62,7 +62,7 @@ const AppliedJobDetails = () => {
             </div>
             <div className=''>
                 <div className='flex justify-end'>
-                    <div className='my-button-3 w-32 flex flex-col justify-start items-center'>
+                    <div className='my-button-3 w-32 flex flex-col justify-start me-6 mt-5 mb-2 md:me-6 md: mt-0 items-center'>
                         <button onClick={() => setFilter(!filter)} className=' flex items-center'>Filter by  <span ><ChevronDownIcon className="h-4 w-4 " /></span> </button>
                         <div className={filter ? 'flex flex-col justify-start' : 'hidden'}>
                             <button onClick={()=>remoteButtonHandler()} className=''>Remote </button>

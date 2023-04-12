@@ -12,5 +12,5 @@
     @apply px-5 py-2 text-teal-700 border-2 my-4 border-gray-300 rounded-sm
 }
 .my-button-3{
-    @apply mb-4   md:mb-8 mt-6 md:mt-32 border-2 border-lime-400 bg-slate-300 px-5 py-2 md:mx-36 rounded-lg
+    @apply mb-2   md:mb-8 mt-4 md:mt-32 border-2 border-lime-400 bg-slate-300 px-5 py-2 md:mx-36 rounded-lg
 }

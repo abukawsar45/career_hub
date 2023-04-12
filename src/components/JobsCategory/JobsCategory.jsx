@@ -16,7 +16,7 @@ const JobsCategory = () => {
         <div className='mt-12 md:mt-28'>
             <div className='text-center'>
                 <h2 className='font-semibold my-4 text-5xl'>Job Category List</h2>
-                <p className='text-gray-700 my-4'>Explore our large platform for the opportunities you need.</p>
+                <p className='text-gray-700 my-2 md:my-2 mx-2 md:mx-auto'>Explore our large platform for the opportunities you need.</p>
             </div>
             <div className='grid gap-4 grid-col my-7 md:grid-cols-4 '>
                 {
